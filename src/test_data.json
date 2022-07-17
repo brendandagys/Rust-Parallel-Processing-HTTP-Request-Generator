@@ -1,0 +1,59 @@
+{
+    "address": "Florida Man<br>35 Coast Ridge Road<br>Palm Coast, Florida<br>42069<br>United States",
+    "create_date": "7/9/2022",
+    "currency_code": "CAD",
+    "due_date": "7/31/2022",
+    "invoice_number": "E1337",
+    "reference_number": "28",
+    "subtotal": "$420.69",
+    "lines": [
+        {
+            "name": "Advertising",
+            "description": "Advertising on Kijiji. This is a description that adds some more context.",
+            "quantity": 35,
+            "unit_cost": "$20.00",
+            "total": "$700.00",
+            "taxes": [
+                "HST"
+            ]
+        },
+        {
+            "name": "Promoted Listings",
+            "description": "Promoted Listing Advertisements on Zumper. Another description blurb.",
+            "quantity": 2,
+            "unit_cost": "$100.00",
+            "total": "$200.00",
+            "taxes": [
+                "GST",
+                "HST"
+            ]
+        },
+        {
+            "name": "Call Tracking",
+            "description": "Call Tracking lines on multiple buildings in Ottawa.",
+            "quantity": 45,
+            "unit_cost": "$2.00",
+            "total": "$90.00",
+            "taxes": [
+                "GST"
+            ]
+        }
+    ],
+    "taxes": {
+        "HST": {
+            "rate": 0.05,
+            "percent": 0.05,
+            "total": "$45.00"
+        },
+        "GST": {
+            "rate": 0.08,
+            "percent": 0.08,
+            "total": "$23.20"
+        }
+    },
+    "total": "$488.89",
+    "paid_amount": "$231.35",
+    "due": "$257.54",
+    "notes": "These are some example notes.",
+    "terms": "These are some example terms."
+}
