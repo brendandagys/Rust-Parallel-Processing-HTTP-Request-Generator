@@ -84,7 +84,6 @@ async fn test_node() {
 
     let response = client
         .post("http://0.0.0.0:5000/api/actions")
-        .header(AUTHORIZATION, "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQyMjIsImF1dGhTdHJpbmciOiJhO2tsc2RqZjtrcGx3ZXFycml1cG90MnF3LXVwOWlvdHJmamlwW293cWVuO21rZGxmZ3ZhO2xpa2pwaHUgc2siLCJpYXQiOjE2MTU4NDM1MjB9.35QdvO_SGp5femVaTK-S9jsIikPD8WSc4JObxME-c5E")
         .json(&json!({ "action": "testPdfGeneration" }))
         .send()
         .await
